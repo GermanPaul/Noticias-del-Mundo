@@ -1,0 +1,63 @@
+[
+    {
+        "id": 0,
+        "title": "Rusia y la guerra comercial evidencian la división de los socios en la cumbre del G7 en Biarritz", 
+        "summary":"Donald Trump quiere readmitir a Vladímir Putin y los demás se resisten",
+        "img": "./media/n0.jpg",
+        "section": 1, 
+        "text": "El presidente de Estados Unidos, Donald Trump, guardó las formas. Todo fueron sonrisas y abrazos durante las dos primeras jornadas de G7 en Biarritz, no hubo tuits insultantes para los otros líderes ni salidas de tono. Pero las diferencias de fondo entre las democracias más ricas del planeta afloraron desde la cena inaugural, el sábado por la noche, hasta las reuniones de este domingo. <br /><br /> Desde Rusia al comercio internacional, pasando por la función de un foro como el G7 y hasta el concepto de democracia liberal, pocos son los puntos de consenso en la cumbre. Las alianzas son asimétricas, y cada miembro puede cambiar de bando según las circunstancias. Pero en lo esencial se summary en Trump de un lado, y el resto de líderes del otro."
+    },
+    {
+        "id": 1, 
+        "title": "Montmeló logra una prórroga para mantener el GP de España de F1 en 2020",
+        "summary":"Tras meses de incertidumbre, el circuit gana tiempo para replantear el año que viene un nuevo contrato más largo", 
+        "img": "./media/n1.jpg", 
+        "section": 2, 
+        "text": "El Gran Premio de España de Fórmula 1 seguirá disputándose en el circuito de Montmeló al menos un año más. Así lo comunicaron este martes por la tarde el propio Circuit, que llevaba más de un año enfrascado en negociaciones a tres bandas, y Liberty Media, promotor del certamen. La solución alcanzada para no perder un gran premio que se viene disputando ininterrumpidamente en el trazado barcelonés desde 1991 sirve para ganar tiempo y puede interpretarse como un mal menor. Se trata de una prórroga de una temporada sobre el contrato que expiraba este 2019 y que no convence a los gestores de la instalación, que lo consideran obsoleto."
+    },
+    {
+        "id": 2, 
+        "title": "Disney tiene un plan", 
+        "summary":"Dueña de Marvel, Star Wars, Pixar y Fox, la compañía es una máquina de generar taquillazos. Ahora toca conquistar el negocio del ‘streaming’ con una plataforma que amenaza a Netflix y HBO", 
+        "img": "./media/n2.jpg", 
+        "section": 3, 
+        "text": "Cuando la compañía Disney presenta sus novedades, lo hace en un pabellón del centro de convenciones de Anaheim (California), al lado de Disneyland, ante 7.000 personas que pagan por estar allí, y con las mayores estrellas de la taquilla puestas de adorno en el escenario. Así fue este fin de semana, durante la convención D23, la gran convocatoria que Disney organiza cada dos años como evento para fans. ¿Es Disney demasiado grande?, se preguntaba la prensa especializada. Estos días, Disney respondió con contundencia."},
+    {
+        "id": 3, 
+        "title": "Brasil aceptará la ayuda internacional para los incendios en el Amazonas siempre que pueda decidir cómo usarla",
+        "summary":"El portavoz del presidente Jair Bolsonaro dice que está abierto a recibir las aportaciones mientras el manejo de dichos recursos estén bajo su responsabilidad", 
+        "img": "./media/n3.jpg", 
+        "section": 1, 
+        "text": "El presidente de Brasil, Jair Bolsonaro, está dispuesto a recibir ayuda externa para combatir los incendios amazónicos a condición de que su Gobierno maneje los recursos de forma autónoma, anunció este martes su portavoz, bajando así el tono de la agria disputa con el mandatario francés, Emmanuel Macron, que durante la cumbre del G7 en Biarritz (sur de Francia) anunció una partida de 18 millones de euros. \n El lunes, el jefe de gabinete, Onyx Lorenzoni, había anunciado el rechazo de la ayuda ofrecida por el G7; y el martes por la mañana Bolsonaro condicionó la recepción de fondos a que Macron pidiera disculpas por lo que consideró 'insultos' personales y 'agravios a la soberanía brasileña'."
+    },
+    {
+        "id": 4, 
+        "title": "Nairo remata en Calpe una emboscada preparada por Valverde", 
+        "summary":"El irlandés Roche, nuevo líder tras un ataque hacia la costa que sorprende a Superman", 
+        "img": "./media/n4.jpg", 
+        "section": 2, 
+        "text": "'La armonía de un equipo', dice el colombiano, que entra esprintando al paseo marítimo de Calpe, y solo después de cruzar la meta levanta los brazos y hace como que vuela, hace como el cóndor, el ave con el que algunos le bautizan, porque, explica, quiere seguir volando alto, quiere proclamar que Nairo sigue activo. “Lo necesitaba, y lo necesitaba el equipo, este golpe de moral y de tranquilidad”. Busca la máxima ventaja sobre el grupo tan selecto que le acompaña en el asalto —Roglic, Urán, Aru, Roche y Nieve— y se queda a 2s del maillot rojo, placer que goza Roche, el hijo de Stephen, líder de la Vuelta por segunda vez en su vida. 'Lo defenderé lo que se pueda, como dije la otra vez que lo vestí, y me duró un día', dice el irlandés. 'Espero que esta vez me dure más'."
+    },
+    {
+        "id": 5, 
+        "title": "Netflix renuncia a un gran estreno en salas de ‘El irlandés’, de Martin Scorsese", 
+        "summary":"La plataforma no logra un acuerdo con las grandes cadenas de exhibidores y su apuesta cinematográfica del año se verá en salas independientes, como 'Roma'", 
+        "img": "./media/n5.jpg", 
+        "section": 3, 
+        "text": "La nueva película de Martin Scorsese es uno de los acontecimientos del año en cine, pero no se podrá calificar de “gran estreno”. Netflix anunció este martes que El irlandés estará en salas el 1 de noviembre y en su plataforma el día 27 de ese mes. Los planes anunciados significan renunciar al estreno amplio de El irlandés en grandes cadenas de exhibición, como habría sido habitual para una película que aspira a los Oscar."
+    },
+    {
+        "id": 6, 
+        "title": "Cruce de amenazas entre Líbano e Israel tras el ataque con drones en Beirut",
+        "summary":"Las tropas de la ONU aumentan el nivel de vigilancia en la frontera entre ambos países", 
+        "img": "./media/n6.jpg", 
+        "section": 1, 
+        "text": "“Líbano tiene derecho a defenderse con todos los medios disponibles de cualquier agresión”, ha declarado este martes el Alto Consejo de Defensa libanés, reunido de urgencia tras el ataque con drones cargados con explosivos en su capital el pasado domingo. Evitar una guerra en la frontera sur de Líbano con Israel es el objetivo que mantiene ocupados a diplomáticos, militares, espías y políticos en Beirut desde que dos drones cargados con explosivos golpearan una sede mediática del partido-milicia Hezbolá al sur de la capital."},
+    {
+        "id": 7, 
+        "title": "Nadal arranca con el turbo",
+        "summary":"El número dos firma un despegue categórico ante Millman (6-3, 6-2 y 6-2, en 2h 09m) para igualar sus mejores estrenos",  
+        "img": "./media/n7.jpg", 
+        "section": 2, 
+        "text": "Lo sabe Rafael Nadal, pero aun así no puede evitar torcer el gesto una, dos, tres, cuatro y las veces que haga falta porque el público de la Arthur Ashe no deja de entrar y salir, de levantarse para hacerse selfies, de brindar y pasear, de moverse todo el rato y departir como si estuviera en el sofá de casa, enfrente del televisor. Lo sabe Nadal, que ha desfilado ya 15 años por la pista más grande del mundo, pero aun así, todavía encuentra dificultades para concentrarse y cogerle el pulso al ambiente que preside su victoria de apertura en este US Open: 6-3, 6-2 y 6-2, en 2h 09m ante John Millman."}
+]
