@@ -1,18 +1,14 @@
 <template>
-  <router-view/>
+  <router-view />
 </template>
 
 <script>
-
-export default {
-
-}
+export default {};
 </script>
 
 <style>
 * {
   box-sizing: border-box;
-  /* border: 1px solid black; */
 }
 html {
   scroll-behavior: smooth;

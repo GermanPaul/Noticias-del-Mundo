@@ -7,15 +7,21 @@
       <div
         v-bind:class="{ headerLinkActive: linkactive == 1 }"
         @click="changeFilteredNewsMethod(1)"
-      >Política</div>
+      >
+        Política
+      </div>
       <div
         v-bind:class="{ headerLinkActive: linkactive == 2 }"
         @click="changeFilteredNewsMethod(2)"
-      >Deportes</div>
+      >
+        Deportes
+      </div>
       <div
         v-bind:class="{ headerLinkActive: linkactive == 3 }"
         @click="changeFilteredNewsMethod(3)"
-      >Farandula</div>
+      >
+        Farandula
+      </div>
     </div>
   </div>
 </template>
@@ -25,13 +31,13 @@ import { mapActions, mapState } from "vuex";
 
 export default {
   name: "NewsHeader",
-  data: function() {
+  data: function () {
     return {
-      linkactive: 0
+      linkactive: 0,
     };
   },
   computed: {
-    ...mapState(["newsFilter"])
+    ...mapState(["newsFilter"]),
   },
   methods: {
     ...mapActions(["changeNewsFilter", "changeNews"]),
@@ -47,8 +53,8 @@ export default {
       } else {
         this.changeNews(0);
       }
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -113,7 +119,7 @@ $break-point: 800px;
       width: 100%;
     }
 
-    @include minScreen{
+    @include minScreen {
       flex-direction: column;
     }
 
@@ -124,7 +130,7 @@ $break-point: 800px;
       justify-content: center;
       align-items: center;
 
-      @include minScreen{
+      @include minScreen {
         width: 100%;
       }
 

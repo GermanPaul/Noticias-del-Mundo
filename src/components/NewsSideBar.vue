@@ -1,32 +1,34 @@
 <template>
   <div id="sideBar">
-    <div class="sideBarLinks" v-for='(news, index) in newsFiltered' :key='index'>
-      <a href="./#">
-        <div @click='changeNewsMethod(news.id)'>
-          <img style="width: 100%;" :src='news.img' />
-          <p>{{news.title}}</p>
+    <div
+      class="sideBarLinks"
+      v-for="(news, index) in newsFiltered"
+      :key="index"
+    >
+      <a>
+        <div @click="changeNewsMethod(news.id)">
+          <img style="width: 100%" :src="news.img" />
+          <p>{{ news.title }}</p>
         </div>
-      </a>      
+      </a>
     </div>
   </div>
 </template>
 
 <script>
-import { mapActions, mapGetters } from 'vuex'
+import { mapActions, mapGetters } from "vuex";
 
 export default {
   name: "NewsSideBar",
   computed: {
-    ...mapGetters([
-      'newsFiltered'
-    ])
+    ...mapGetters(["newsFiltered"]),
   },
   methods: {
-    ...mapActions(['changeNews']),
+    ...mapActions(["changeNews"]),
     changeNewsMethod(index) {
-      this.changeNews(index)
-    }
-  }
+      this.changeNews(index);
+    },
+  },
 };
 </script>
 
@@ -34,40 +36,41 @@ export default {
 $break-point: 800px;
 
 @mixin smallScreen {
-  @media screen and (max-width: #{$break-point})  {
+  @media screen and (max-width: #{$break-point}) {
     @content;
   }
 }
-#sideBar{
+#sideBar {
   width: 26.6%;
   text-align: center;
   background-color: lightgray;
   padding-top: 10px;
-  
+
   @include smallScreen {
     width: 100%;
   }
 
-  div{
+  div {
     padding: 0px 15px;
     font-weight: bold;
 
-    a{
+    a {
       text-decoration: none;
       color: black;
+      cursor: pointer;
 
-      div>p{
-          margin-top: 0px;
-          margin-bottom: 20px;
+      div > p {
+        margin-top: 0px;
+        margin-bottom: 20px;
       }
     }
   }
 }
 
-.sideBarLinks{
-  &:hover{
+.sideBarLinks {
+  &:hover {
     text-shadow: 1px 1px 0px rgb(180, 180, 180);
-    a>div>img{
+    a > div > img {
       border: 1px solid gray;
     }
   }

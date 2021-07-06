@@ -19,17 +19,17 @@ export default {
   components: {
     NewsSideBar,
     NewsHeader,
-    NewsInfo
+    NewsInfo,
   },
   computed: {
-    ...mapState(["newsFeed"])
+    ...mapState(["newsFeed"]),
   },
   methods: {
-    ...mapActions(["getNews"])
+    ...mapActions(["getNews"]),
   },
-  mounted: function() {
+  mounted: function () {
     this.getNews();
-  }
+  },
 };
 </script>
 
@@ -47,7 +47,7 @@ $break-point: 800px;
   justify-content: space-between;
 
   @include smallScreen {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
 </style>
